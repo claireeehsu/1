@@ -1,6 +1,6 @@
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-	background(0);
+	background(255);
 }
 
 function draw() {
@@ -9,7 +9,7 @@ function draw() {
   noFill()//不充滿顏色
   //stroke(255)
  
-  background(0)
+  background(255)
   for(var j=0;j<int(height/(49));j++)
 		{
   for(var i=0;i<int(width/(48));i++)
